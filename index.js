@@ -10,7 +10,7 @@ app.use(cors());
 
 //routers
 // const userRouter = require("./routes/user.routes");
-const todoRouter = require("./routes/todo.route");
+const todoRouter = require("./routes/todo.routes");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
